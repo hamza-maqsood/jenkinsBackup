@@ -1,0 +1,15 @@
+Started on Nov 9, 2021, 8:28:00 PM
+Started by event from 140.82.115.116 ⇒ http://ec2-34-244-187-14.eu-west-1.compute.amazonaws.com:8080/github-webhook/ on Tue Nov 09 20:28:00 UTC 2021
+Using strategy: Default
+[poll] Last Built Revision: Revision 06a385867107c98079aa3b63ca1aada1dcf4bd39 (refs/remotes/origin/master)
+Selected Git installation does not exist. Using Default
+The recommended git tool is: NONE
+using credential github-creds
+ > /usr/bin/git --version # timeout=10
+ > git --version # 'git version 2.25.1'
+using GIT_ASKPASS to set credentials github-creds
+ > /usr/bin/git ls-remote -h -- https://github.com/hamza-maqsood/fleet-service.git # timeout=10
+Found 1 remote heads on https://github.com/hamza-maqsood/fleet-service.git
+[poll] Latest remote head revision on refs/heads/master is: 3de2b34b577fa570ea45ef4e2ee42d2e15793174
+Done. Took 0.5 sec
+Changes found

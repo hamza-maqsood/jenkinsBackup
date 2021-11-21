@@ -1,0 +1,15 @@
+Started on Nov 13, 2021, 7:37:01 PM
+Started by event from 140.82.115.106 ⇒ http://ec2-34-244-187-14.eu-west-1.compute.amazonaws.com:8080/github-webhook/ on Sat Nov 13 19:37:01 UTC 2021
+Using strategy: Default
+[poll] Last Built Revision: Revision 725e0c3a0028c5284a35f5d777b29f8a2f65b148 (refs/remotes/origin/master)
+Selected Git installation does not exist. Using Default
+The recommended git tool is: NONE
+using credential github-creds
+ > /usr/bin/git --version # timeout=10
+ > git --version # 'git version 2.25.1'
+using GIT_ASKPASS to set credentials github-creds
+ > /usr/bin/git ls-remote -h -- https://github.com/hamza-maqsood/master-service.git # timeout=10
+Found 2 remote heads on https://github.com/hamza-maqsood/master-service.git
+[poll] Latest remote head revision on refs/heads/master is: 9297a4fcc17b678db4d512a12e996739d4835311
+Done. Took 0.41 sec
+Changes found

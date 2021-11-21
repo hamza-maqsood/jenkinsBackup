@@ -1,0 +1,15 @@
+Started on Sep 30, 2021, 6:01:28 AM
+Started by event from 140.82.115.110 ⇒ http://ec2-34-244-187-14.eu-west-1.compute.amazonaws.com:8080/github-webhook/ on Thu Sep 30 06:01:28 UTC 2021
+Using strategy: Default
+[poll] Last Built Revision: Revision 202dc03d1f2b7c76bf50a37bcb71d5d3c6eae9ae (refs/remotes/origin/master)
+Selected Git installation does not exist. Using Default
+The recommended git tool is: NONE
+using credential github-creds
+ > /usr/bin/git --version # timeout=10
+ > git --version # 'git version 2.25.1'
+using GIT_ASKPASS to set credentials github-creds
+ > /usr/bin/git ls-remote -h -- https://github.com/hamza-maqsood/chat-service.git # timeout=10
+Found 1 remote heads on https://github.com/hamza-maqsood/chat-service.git
+[poll] Latest remote head revision on refs/heads/master is: d7b7c313f8ffa2145a0803722e999b78a7d1fc4d
+Done. Took 0.42 sec
+Changes found

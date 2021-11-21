@@ -1,0 +1,15 @@
+Started on Nov 20, 2021, 1:51:45 AM
+Started by event from 140.82.115.90 ⇒ http://ec2-34-244-187-14.eu-west-1.compute.amazonaws.com:8080/github-webhook/ on Sat Nov 20 01:51:45 UTC 2021
+Using strategy: Default
+[poll] Last Built Revision: Revision 26d08d325955bdcffd72109b5b2dd02ae5c71e59 (refs/remotes/origin/master)
+Selected Git installation does not exist. Using Default
+The recommended git tool is: NONE
+using credential github-creds
+ > /usr/bin/git --version # timeout=10
+ > git --version # 'git version 2.25.1'
+using GIT_ASKPASS to set credentials github-creds
+ > /usr/bin/git ls-remote -h -- https://github.com/hamza-maqsood/prime-api-gateway.git # timeout=10
+Found 2 remote heads on https://github.com/hamza-maqsood/prime-api-gateway.git
+[poll] Latest remote head revision on refs/heads/master is: e425cd1b86f706c27d8cdd99fc3762a7df0b8ed1
+Done. Took 0.42 sec
+Changes found

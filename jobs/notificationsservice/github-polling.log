@@ -1,0 +1,15 @@
+Started on Oct 22, 2021, 1:43:10 PM
+Started by event from 140.82.115.102 ⇒ http://ec2-34-244-187-14.eu-west-1.compute.amazonaws.com:8080/github-webhook/ on Fri Oct 22 13:43:10 UTC 2021
+Using strategy: Default
+[poll] Last Built Revision: Revision bba58e3dfda00da46fe2a7c518738e20fcd7472a (refs/remotes/origin/master)
+Selected Git installation does not exist. Using Default
+The recommended git tool is: NONE
+using credential github-creds
+ > /usr/bin/git --version # timeout=10
+ > git --version # 'git version 2.25.1'
+using GIT_ASKPASS to set credentials github-creds
+ > /usr/bin/git ls-remote -h -- https://github.com/hamza-maqsood/notifications-service.git # timeout=10
+Found 1 remote heads on https://github.com/hamza-maqsood/notifications-service.git
+[poll] Latest remote head revision on refs/heads/master is: c5591183eb89c080e3e12aef2b3637a3f190f742
+Done. Took 0.38 sec
+Changes found

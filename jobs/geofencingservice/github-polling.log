@@ -1,0 +1,15 @@
+Started on Nov 13, 2021, 8:00:21 PM
+Started by event from 140.82.115.117 ⇒ http://ec2-34-244-187-14.eu-west-1.compute.amazonaws.com:8080/github-webhook/ on Sat Nov 13 20:00:21 UTC 2021
+Using strategy: Default
+[poll] Last Built Revision: Revision da66475acb7aa766a2a74542386832422c829d4b (refs/remotes/origin/master)
+Selected Git installation does not exist. Using Default
+The recommended git tool is: NONE
+using credential github-creds
+ > /usr/bin/git --version # timeout=10
+ > git --version # 'git version 2.25.1'
+using GIT_ASKPASS to set credentials github-creds
+ > /usr/bin/git ls-remote -h -- https://github.com/hamza-maqsood/geofencing-service.git # timeout=10
+Found 1 remote heads on https://github.com/hamza-maqsood/geofencing-service.git
+[poll] Latest remote head revision on refs/heads/master is: 286429c1eb8c36d33af2f47467c77420e8e42a5a
+Done. Took 0.37 sec
+Changes found

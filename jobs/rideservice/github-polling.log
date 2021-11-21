@@ -1,0 +1,15 @@
+Started on Nov 20, 2021, 1:56:17 AM
+Started by event from 140.82.115.102 ⇒ http://ec2-34-244-187-14.eu-west-1.compute.amazonaws.com:8080/github-webhook/ on Sat Nov 20 01:56:17 UTC 2021
+Using strategy: Default
+[poll] Last Built Revision: Revision d503284b7c16c045a20d9fa2c6ddfca0731d3054 (refs/remotes/origin/master)
+Selected Git installation does not exist. Using Default
+The recommended git tool is: NONE
+using credential github-creds
+ > /usr/bin/git --version # timeout=10
+ > git --version # 'git version 2.25.1'
+using GIT_ASKPASS to set credentials github-creds
+ > /usr/bin/git ls-remote -h -- https://github.com/hamza-maqsood/ride-service.git # timeout=10
+Found 1 remote heads on https://github.com/hamza-maqsood/ride-service.git
+[poll] Latest remote head revision on refs/heads/master is: 352ea2e65885cb5da57f3d8907974bdcf25b9f82
+Done. Took 0.44 sec
+Changes found

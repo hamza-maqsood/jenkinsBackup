@@ -1,0 +1,15 @@
+Started on Sep 30, 2021, 6:05:04 AM
+Started by event from 140.82.115.106 ⇒ http://ec2-34-244-187-14.eu-west-1.compute.amazonaws.com:8080/github-webhook/ on Thu Sep 30 06:05:04 UTC 2021
+Using strategy: Default
+[poll] Last Built Revision: Revision 5e58bc472a8871bcfcb405c68768c7335a3b8a25 (refs/remotes/origin/master)
+Selected Git installation does not exist. Using Default
+The recommended git tool is: NONE
+using credential github-creds
+ > /usr/bin/git --version # timeout=10
+ > git --version # 'git version 2.25.1'
+using GIT_ASKPASS to set credentials github-creds
+ > /usr/bin/git ls-remote -h -- https://github.com/hamza-maqsood/county-service.git # timeout=10
+Found 1 remote heads on https://github.com/hamza-maqsood/county-service.git
+[poll] Latest remote head revision on refs/heads/master is: 60f49fc7480565f33a784fe22d8a05902bafc476
+Done. Took 0.76 sec
+Changes found

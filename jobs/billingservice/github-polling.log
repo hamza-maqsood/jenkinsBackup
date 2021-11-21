@@ -1,0 +1,15 @@
+Started on Oct 28, 2021, 8:38:28 PM
+Started by event from 140.82.115.249 ⇒ http://ec2-34-244-187-14.eu-west-1.compute.amazonaws.com:8080/github-webhook/ on Thu Oct 28 20:38:28 UTC 2021
+Using strategy: Default
+[poll] Last Built Revision: Revision 781963ce111bd05b424e61ba19b1970e89dfa901 (refs/remotes/origin/master)
+Selected Git installation does not exist. Using Default
+The recommended git tool is: NONE
+using credential github-creds
+ > /usr/bin/git --version # timeout=10
+ > git --version # 'git version 2.25.1'
+using GIT_ASKPASS to set credentials github-creds
+ > /usr/bin/git ls-remote -h -- https://github.com/hamza-maqsood/billing-service.git # timeout=10
+Found 1 remote heads on https://github.com/hamza-maqsood/billing-service.git
+[poll] Latest remote head revision on refs/heads/master is: 833566643175bcbfc7b41eb8750f2b3999fb9af6
+Done. Took 0.41 sec
+Changes found
